@@ -61,7 +61,6 @@ a {
     content: " »"; }
 
 header {
-  width: 640px;
   margin: 30px; }
   header a:after {
     content: ""; }
@@ -78,8 +77,9 @@ section {
 
 aside.anuncios {
   float: right;
+  width: 210px;
   background: #101010;
-  padding: 30px;
+  padding: 15px 30px;
   color: #f0f0f0; }
   aside.anuncios dt {
     margin: 0;
