@@ -49,7 +49,7 @@ table {
 body {
   font: 20px/1.5 "futura-pt", sans-serif;
   font-weight: 400;
-  background-color: #f0f0f0;
+  background: #f0f0f0 url(/img/pinstripe.png);
   color: #202020; }
 
 a {
@@ -79,6 +79,7 @@ aside.anuncios {
   float: right;
   width: 210px;
   background: #101010;
+  background: rgba(10, 10, 10, 0.95);
   padding: 15px 30px;
   color: #f0f0f0; }
   aside.anuncios dt {
