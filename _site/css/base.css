@@ -89,10 +89,10 @@ aside.anuncios {
     margin: 0;
     font-size: 16px; }
   aside.anuncios a {
-    color: #f0f0f0;
+    color: white;
     text-decoration: underline; }
     aside.anuncios a:visited {
-      color: #f0f0f0; }
+      color: white; }
 
 dt {
   color: #22090e;
