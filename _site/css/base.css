@@ -83,16 +83,16 @@ aside.anuncios {
   color: #f0f0f0; }
   aside.anuncios dt {
     margin: 0;
-    color: white;
+    color: #f0f0f0;
     font-size: 20px; }
   aside.anuncios dd {
     margin: 0;
     font-size: 16px; }
   aside.anuncios a {
-    color: white;
+    color: #f0f0f0;
     text-decoration: underline; }
     aside.anuncios a:visited {
-      color: white; }
+      color: #f0f0f0; }
 
 dt {
   color: #22090e;
