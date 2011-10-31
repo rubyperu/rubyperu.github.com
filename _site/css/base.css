@@ -47,7 +47,7 @@ table {
   border-spacing: 0; }
 
 body {
-  font: 24px/1.5 "futura-pt", sans-serif;
+  font: 20px/1.5 "futura-pt", sans-serif;
   font-weight: 400;
   background-color: #f0f0f0;
   color: #202020; }
@@ -58,17 +58,17 @@ a {
   a:visited {
     color: #22090e; }
   a:after {
-    content: " ⇾"; }
+    content: " »"; }
 
 header {
   width: 640px;
-  margin: 12px 24px; }
+  margin: 30px; }
   header a:after {
     content: ""; }
 
 section {
-  width: 640px;
-  margin: 12px 24px; }
+  width: 690px;
+  margin: 30px; }
   section p a {
     text-decoration: underline; }
     section p a:hover {
@@ -76,26 +76,42 @@ section {
     section p a:after {
       content: ""; }
 
+aside.anuncios {
+  float: right;
+  background: #101010;
+  padding: 30px;
+  color: #f0f0f0; }
+  aside.anuncios dt {
+    margin: 0;
+    color: white;
+    font-size: 20px; }
+  aside.anuncios dd {
+    margin: 0;
+    font-size: 16px; }
+  aside.anuncios a {
+    color: white;
+    text-decoration: underline; }
+    aside.anuncios a:visited {
+      color: white; }
+
 dt {
   color: #22090e;
+  font-size: 30px;
+  line-height: 30px;
   font-weight: 500;
-  margin: 12px 0 0; }
+  margin: 30px 0 0; }
 
 dd {
-  font-size: 20px;
-  margin: 0 0 12px; }
-
-li {
-  font-size: 20px; }
+  margin: 0 0 30px; }
 
 h1 {
-  font-size: 48px;
+  font-size: 45px;
   line-height: 1;
   color: black;
   font-weight: 500; }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 48px;
   color: black;
   font-weight: 500; }
