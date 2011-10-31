@@ -3,8 +3,9 @@
 body {
   font: 20px/1.5 "futura-pt", sans-serif;
   font-weight: 400;
-  background: #f0f0f0 url(/img/pinstripe.png);
+  background: #f0f0f0;
   color: #202020;
+  -webkit-font-smoothing: antialiased;
 }
 a {
   color: #22090e;
@@ -78,6 +79,13 @@ h1 {
 h2 {
   font-size: 30px;
   line-height: 48px;
+  color: black;
+  font-weight: 500;
+}
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 15px;
   color: black;
   font-weight: 500;
 }
