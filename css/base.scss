@@ -1,3 +1,65 @@
+@import "reset.scss";
+
 body {
-  font: 16px/1.5 "futura-pt", sans-serif;
+  font: 24px/1.5 "futura-pt", sans-serif;
+  font-weight: 400;
+  background-color: #f0f0f0;
+  color: #202020;
+}
+a {
+  color: #22090e;
+  text-decoration: none;
+  &:visited {
+    color: #22090e;
+  }
+  &:after {
+    content: " ⇾";
+  }
+}
+header {
+  width: 640px;
+  margin: 12px 24px;
+  & a:after {
+    content: "";
+  }
+}
+section {
+  width: 640px;
+  margin: 12px 24px;
+  & p a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    } 
+    &:after {
+      content: "";
+    } 
+  }
+}
+dt {
+  color: #22090e;
+  font-weight: 500;
+  margin: 12px 0 0;
+}
+dd {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+li {
+  font-size: 20px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 1;
+  color: black;
+  font-weight: 500;
+}
+h2 {
+  font-size: 24px;
+  line-height: 48px;
+  color: black;
+  font-weight: 500;
+}
+strong {
+  font-weight: 500;
 }
