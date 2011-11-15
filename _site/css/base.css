@@ -65,6 +65,8 @@ header {
   margin: 30px; }
   header a:after {
     content: ""; }
+  header img {
+    border: 0; }
 
 section {
   width: 690px;
@@ -77,8 +79,6 @@ section {
       content: ""; }
 
 aside.anuncios {
-  float: right;
-  width: 210px;
   background: #101010;
   background: rgba(10, 10, 10, 0.95);
   padding: 15px 30px;

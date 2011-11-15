@@ -1,4 +1,6 @@
-@import "reset.scss";
+---
+---
+@import "css/reset.scss";
 
 body {
   font: 20px/1.5 "futura-pt", sans-serif;
@@ -22,6 +24,9 @@ header {
   & a:after {
     content: "";
   }
+  img {
+    border: 0;
+  }
 }
 section {
   width: 690px;
@@ -37,8 +42,6 @@ section {
   }
 }
 aside.anuncios {
-  float: right;
-  width: 210px;
   background: #101010;
   background: rgba(10, 10, 10, 0.95);
   padding: 15px 30px;
