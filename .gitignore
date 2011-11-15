@@ -1,3 +1,2 @@
 .DS_Store
-destination
-css/.sass-cache
+.sass-cache
