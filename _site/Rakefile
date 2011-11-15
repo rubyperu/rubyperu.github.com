@@ -1,0 +1,12 @@
+require "sass"
+
+desc "Genera los estilos"
+task :default do
+  content = File.read("css/base.scss")
+  meta = /^(---\s*\n.*?\n?)^(---\s*$\n?)/m.match(content)
+  data = meta.post_match    
+  engine = Sass::Engine.new(data, :syntax => :scss)
+  File.open do |f|
+    f.puts engine.render
+  end
+end

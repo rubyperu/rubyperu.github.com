@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font: 20px/1.5 "futura-pt", sans-serif;
+  font-weight: 400;
+  background: #f0f0f0 url(/img/white_carbon.png);
+  color: #202020;
+  text-align: center;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #b62123;
+  text-decoration: none; }
+  a:visited {
+    color: #b62123; }
+
+header {
+  margin: 30px auto; }
+  header img {
+    border: 0; }
+
+section {
+  width: 690px;
+  margin: 30px auto; }
+  section p a {
+    text-decoration: underline; }
+    section p a:hover {
+      text-decoration: none; }
+
+section.bienvenida {
+  background: #101010;
+  background: rgba(0, 0, 0, 0.85);
+  -webkit-border-radius: 10px;
+  padding: 30px;
+  color: #f0f0f0;
+  font-size: 22px; }
+  section.bienvenida a {
+    color: #b62123;
+    text-decoration: underline; }
+    section.bienvenida a:visited {
+      color: #b62123; }
+
+dt {
+  color: #22090e;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 30px 0 0; }
+  dt a:after {
+    content: " »"; }
+
+dd {
+  margin: 0 0 30px; }
+
+h1 {
+  font-size: 45px;
+  line-height: 1;
+  color: black;
+  font-weight: 500; }
+
+h2 {
+  font-size: 30px;
+  line-height: 48px;
+  color: black;
+  font-weight: 500; }
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 15px;
+  color: #b62123;
+  font-weight: 500; }
+
+strong {
+  font-weight: 500; }
