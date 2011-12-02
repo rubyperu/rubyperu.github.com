@@ -1,0 +1,83 @@
+@import "_includes/reset.scss";
+
+body {
+  font: 20px/1.5 "futura-pt", sans-serif;
+  font-weight: 400;
+  background: #f0f0f0 url(/img/white_carbon.png);
+  color: #202020;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #b62123;
+  text-decoration: none;
+  &:visited {
+    color: #b62123;
+  }
+}
+header {
+  margin: 30px auto;
+  img {
+    border: 0;
+  }
+}
+section {
+  width: 690px;
+  margin: 30px auto;
+  p a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    } 
+  }
+}
+section.bienvenida {
+  background: #101010;
+  background: rgba(0, 0, 0, 0.85);
+  -webkit-border-radius: 10px;
+  padding: 30px;
+  color: #f0f0f0;
+  font-size: 22px;
+  a {
+    color: #b62123;
+    text-decoration: underline;
+    &:visited {
+      color: #b62123;
+    }
+  }
+}
+dt {
+  color: #22090e;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 30px 0 0;
+  a:after {
+    content: " »";
+  }
+}
+dd {
+  margin: 0 0 30px;
+}
+h1 {
+  font-size: 45px;
+  line-height: 1;
+  color: black;
+  font-weight: 500;
+}
+h2 {
+  font-size: 30px;
+  line-height: 48px;
+  color: black;
+  font-weight: 500;
+}
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 15px;
+  color: #b62123;
+  font-weight: 500;
+}
+strong {
+  font-weight: 500;
+}
