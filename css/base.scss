@@ -10,6 +10,7 @@ body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
+
 a {
   color: #b62123;
   text-decoration: none;
@@ -17,12 +18,14 @@ a {
     color: #b62123;
   }
 }
+
 header {
   margin: 30px auto;
   img {
     border: 0;
   }
 }
+
 section {
   width: 690px;
   margin: 30px auto;
@@ -30,9 +33,10 @@ section {
     text-decoration: underline;
     &:hover {
       text-decoration: none;
-    } 
+    }
   }
 }
+
 section.bienvenida {
   background: #101010;
   background: rgba(0, 0, 0, 0.85);
@@ -48,6 +52,7 @@ section.bienvenida {
     }
   }
 }
+
 dt {
   color: #22090e;
   font-size: 30px;
@@ -58,15 +63,18 @@ dt {
     content: " »";
   }
 }
+
 dd {
-  margin: 0 0 30px;
+  margin: 10px 0 30px;
 }
+
 h1 {
   font-size: 45px;
   line-height: 1;
   color: black;
   font-weight: 500;
 }
+
 h2 {
   font-size: 30px;
   line-height: 48px;
@@ -80,6 +88,7 @@ h3 {
   color: #b62123;
   font-weight: 500;
 }
+
 strong {
   font-weight: 500;
 }
