@@ -1,4 +1,4 @@
 source :rubygems
 
-gem "jekyll"
-gem "sass"
+gem 'jekyll'
+gem 'sass'
