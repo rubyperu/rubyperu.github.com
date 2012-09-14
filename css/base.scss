@@ -65,7 +65,7 @@ dt {
 }
 
 dd {
-  margin: 10px 0 30px;
+  margin: 10px 0 10px;
 }
 
 h1 {
@@ -76,11 +76,13 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
-  line-height: 48px;
   color: black;
+  font-size: 30px;
   font-weight: 500;
+  line-height: 48px;
+  margin-top: 10px;
 }
+
 h3 {
   font-size: 24px;
   line-height: 30px;
