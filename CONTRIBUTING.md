@@ -33,5 +33,5 @@ de manera regular, puedes solicitar acceso al repositorio escribiendo a nuestro
 mailing list: <rubyperu@googlegroups.com>.
 
 **Gracias!**
-:heart: heart: :heart: <br />
+:heart: :heart: :heart: <br />
 [RubyPeru](https://github.com/rubyperu).
