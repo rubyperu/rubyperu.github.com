@@ -6,3 +6,7 @@ Este proyecto es el sitio web http://www.ruby.pe. Está desarrollado con la gema
 
 La información importante la encontrarás
 [en el wiki](https://github.com/rubyperu/rubyperu.github.com/wiki).
+
+## ¿Cómo Contribuir?
+
+Por favor, revisa nuestra ["Guía sobre Contribución a ruby.pe"](CONTRIBUTING.md).
