@@ -4,6 +4,8 @@ server:      false
 server_port: 4000
 baseurl:     /
 
+exclude: README.md, CONTRIBUTING.md
+
 source:      .
 destination: ./_site
 plugins:     ./_plugins
