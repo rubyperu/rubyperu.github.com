@@ -27,11 +27,27 @@ vez que cambies un archivo, Jekyll recreará el sitio.
 Para captar estos cambios con Jekyll, ejecuta `rake` cada vez que cambies
 algún archivo `.scss`.
 
-Puedes mandar pull requests con correcciones o nuevas características que
-quieras añadir al sitio web. Si estás pensando en hacer contribuciones
-de manera regular, puedes solicitar acceso al repositorio escribiendo a nuestro
-mailing list: <rubyperu@googlegroups.com>.
+Puedes contribuir haciendo correcciones o añadiendo nuevas características al
+sitio web a través de _pull requests_ a nuestro repositorio. Revisa nuestra
+guía [¿Cómo crear un Pull Request?](https://github.com/rubyperu/rubyperu.github.com/wiki/Pull-Requests-en-Github)
+para más información.
+
+Si estás pensando en hacer contribuciones de manera regular, puedes solicitar
+acceso al repositorio escribiendo a nuestro mailing list:
+<rubyperu@googlegroups.com>.
 
 **Gracias!**
 :heart: :heart: :heart: <br />
 [RubyPeru](https://github.com/rubyperu).
+
+--------------------------------------------------------------------------------
+
+### Información Adicional:
+
+Nos puedes encontrar en:
+
+Twitter: [@rubyperu](https://twitter.com/rubyperu). <br />
+Facebook: [Ruby Perú](https://www.facebook.com/pages/Ruby-Perú/191872640917345). <br />
+Chat: <http://chat.ruby.pe/> <br />
+IRC Freenode: #rubyperu <br />
+Mailing List: [RubyPeru Google Group](https://groups.google.com/forum/?fromgroups#!forum/rubyperu).
