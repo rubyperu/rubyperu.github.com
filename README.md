@@ -9,4 +9,5 @@ La información importante la encontrarás
 
 ## ¿Cómo Contribuir?
 
-Por favor, revisa nuestra ["Guía sobre Contribución a ruby.pe"](CONTRIBUTING.md).
+Por favor, revisa nuestra
+["Guía sobre Contribución a ruby.pe"](https://github.com/rubyperu/rubyperu.github.com/blob/master/CONTRIBUTING.md).
