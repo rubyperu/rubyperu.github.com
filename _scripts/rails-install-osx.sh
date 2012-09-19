@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# This script is based in the RailsGirls OSX installation Script:
+# This script is based in the RailsGirls OSX installation script:
 # https://raw.github.com/railsgirls/installation-scripts/master/rails-install-osx.sh
 
 PACKAGE_URL="http://dl.dropbox.com/u/132031/tokaidoapp.tgz"
@@ -43,7 +43,7 @@ echo -e "\n- - - - - - - - - \n"
 
 echo "Hola! Si recién estás empezando con Ruby o Ruby on Rails,\n"
 echo "vísitanos en http://ruby.pe/. Tenemos tutoriales en español\n"
-echo "para aprender Ruby y Ruby on Rails - RubyPerú\n"
+echo "para aprender Ruby y Ruby on Rails - RubyPerú.\n"
 
 echo "Listo!"
 echo "Por favor reinicia tu terminal."
