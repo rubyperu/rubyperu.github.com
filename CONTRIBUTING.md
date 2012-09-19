@@ -6,7 +6,7 @@ en seguir avanzando con esta meta.
 
 En este repositorio alojamos 2 proyectos:
 
-  * La página principal del grupo: [http://ruby.pe/](http://ruby.pe/).
+  * La página principal del grupo: <http://ruby.pe/>
   * El [Wiki](https://github.com/rubyperu/rubyperu.github.com/wiki).
 
 ## Ruby Perú: Página oficial
@@ -21,7 +21,7 @@ en el terminal:
 
     $ bundle exec jekyll --server 4000 --auto
 
-Abre la dirección <http://localhost:4000/> desde su navegador preferido. Cada
+Abre la dirección <http://localhost:4000/> desde tu navegador preferido. Cada
 vez que cambies un archivo, Jekyll recreará el sitio.
 
 **NOTA:** Usamos [Sass](http://sass-lang.com/) para los estilos de la página.
@@ -45,7 +45,7 @@ acceso al repositorio escribiendo a nuestro mailing list:
 
 ### Información adicional:
 
-Encuentranos en:
+Encuéntranos en:
 
 Twitter: [@rubyperu](https://twitter.com/rubyperu)
 
