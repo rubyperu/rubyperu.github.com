@@ -16,10 +16,10 @@ echo $dir
 
 tmpdir=$(mktmpdir)
 cd $tmpdir
-echo "Downloading Tokaido.app"
+echo "Descargando Tokaido.app"
 curl $PACKAGE_URL -\# -o - | tar zxf -
+echo "Seteando Tokaido.app"
 
-echo "Setting up Tokaido.app"
 mkdir -p $TOKAIDO_DIR
 mkdir -p $TOKAIDO_DIR/rubies
 mkdir -p $TOKAIDO_DIR/gems
