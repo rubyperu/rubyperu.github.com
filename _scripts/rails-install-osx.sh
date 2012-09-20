@@ -35,7 +35,7 @@ source $HOME/.tokaidoapp/tokaidoapp.sh
 echo -e "\n- - - - - - - - - \n"
 echo -e "Ahora vamos a imprimir alguna información para probar que todo está correcto:"
 
-echo -n "La versión de Ruby debería ser 1.9.3p194: "
+echo -n "La versión de Ruby debería ser ruby 1.9.3p194: "
 ruby -v | cut -c 1-14
 echo -n "La versión de Rails debería ser Rails 3.2.3: "
 rails -v
