@@ -1,4 +1,5 @@
-# ¿Cómo contribuir con Ruby Perú?
+¿Cómo contribuir con Ruby Perú?
+===============================
 
 Somos una comunidad creada a puro esfuerzo voluntario. Nuestro principal
 objetivo es difundir el conocimiento sobre Ruby. Te animamos a apoyarnos
@@ -9,7 +10,8 @@ En este repositorio alojamos 2 proyectos:
   * La página principal del grupo: <http://ruby.pe/>.
   * El [Wiki](https://github.com/rubyperu/rubyperu.github.com/wiki).
 
-## Ruby Perú: Página oficial
+Ruby Perú: Página oficial
+-------------------------
 
 Este sitio está creado con la gema [Jekyll](https://github.com/mojombo/jekyll).
 
