@@ -6,7 +6,7 @@ en seguir avanzando con esta meta.
 
 En este repositorio alojamos 2 proyectos:
 
-  * La página principal del grupo: <http://ruby.pe/>
+  * La página principal del grupo: <http://ruby.pe/>.
   * El [Wiki](https://github.com/rubyperu/rubyperu.github.com/wiki).
 
 ## Ruby Perú: Página oficial
@@ -39,7 +39,7 @@ acceso al repositorio escribiendo a nuestro mailing list:
 
 **Gracias!**
 :heart: :heart: :heart: <br />
-[RubyPeru](https://github.com/rubyperu).
+[Ruby Perú](http://ruby.pe/).
 
 --------------------------------------------------------------------------------
 
@@ -47,8 +47,7 @@ acceso al repositorio escribiendo a nuestro mailing list:
 
 Encuéntranos en:
 
-* Twitter: [@rubyperu](https://twitter.com/rubyperu)
-* Facebook: [Ruby Perú](https://www.facebook.com/pages/Ruby-Perú/191872640917345)
-* Chat: [http://chat.ruby.pe/](http://chat.ruby.pe/)
-* IRC Freenode: #rubyperu
-* Mailing List: [RubyPeru Google Group](https://groups.google.com/forum/?fromgroups#!forum/rubyperu)
+* Twitter: [@rubyperu](https://twitter.com/rubyperu).
+* Facebook: [Ruby Perú - Página Oficial](https://www.facebook.com/pages/Ruby-Perú/191872640917345).
+* Chat: <http://ruby.pe/chat.html>.
+* Mailing List: [RubyPeru Google Group](https://groups.google.com/forum/?fromgroups#!forum/rubyperu).
