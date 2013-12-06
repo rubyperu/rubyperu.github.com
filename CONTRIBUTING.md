@@ -51,5 +51,4 @@ Encuéntranos en:
 
 * Twitter: [@rubyperu](https://twitter.com/rubyperu).
 * Facebook: [Ruby Perú - Página Oficial](https://www.facebook.com/pages/Ruby-Perú/191872640917345).
-* Chat: <http://ruby.pe/chat.html>.
 * Mailing List: [RubyPeru Google Group](https://groups.google.com/forum/?fromgroups#!forum/rubyperu).
