@@ -1,17 +1,17 @@
 safe:        true
-auto:        false
-server:      false
-server_port: 4000
+#auto:        false
+#server:      false
+port: 4000
 baseurl:     /
 
-exclude: README.md, CONTRIBUTING.md
+exclude: [README.md, CONTRIBUTING.md]
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir: ./_plugins
 
 future:      true
 lsi:         false
-pygments:    false
+highlighter: false
 markdown:    kramdown
 permalink:   date
