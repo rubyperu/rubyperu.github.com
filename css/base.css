@@ -64,9 +64,8 @@ header {
   margin: 30px auto; }
   header img {
     border: 0; }
-
 section {
-  width: 690px;
+  max-width: 690px;
   margin: 30px auto; }
   section p a {
     text-decoration: underline; }
@@ -79,7 +78,7 @@ section.bienvenida {
   -webkit-border-radius: 10px;
   padding: 30px;
   color: #f0f0f0;
-  font-size: 22px; }
+  font-size: 1.1em; }
   section.bienvenida a {
     color: #b62123;
     text-decoration: underline; }
@@ -120,3 +119,17 @@ h3 {
 
 strong {
   font-weight: 500; }
+
+.logo img{
+  height: 100px;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
