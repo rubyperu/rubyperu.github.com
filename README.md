@@ -1,5 +1,6 @@
 # Ruby Perú
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/rubyperu/rubyperu.github.com?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[Chat](http://bit.ly/rubyperu-slack)
 
 Este proyecto es el sitio web http://ruby.pe. Está desarrollado con la gema
 [Jekyll](https://github.com/mojombo/jekyll) y alojado como una
