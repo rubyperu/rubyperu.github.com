@@ -1,4 +1,4 @@
-@import "_includes/reset.scss";
+@import "reset.scss";
 
 body {
   font: 20px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ section {
 section.bienvenida {
   background: #101010;
   background: rgba(0, 0, 0, 0.85);
-  -webkit-border-radius: 10px;
+  border-radius: 10px;
   padding: 30px;
   color: #f0f0f0;
   font-size: 22px;
@@ -92,4 +92,18 @@ h3 {
 strong {
   font-weight: 500;
 }
- 
+
+.logo img {
+  height: 100px;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
