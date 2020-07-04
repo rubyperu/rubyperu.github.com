@@ -1,0 +1,42 @@
+---
+layout: base
+---
+
+<div class="cfpContainer">
+  <div class="cfpContent">
+    <h1>Quiero dar una charla en Ruby Peru</h1>
+
+    <p>Siempre estamos en la búsqueda de gente que quiera compartir conocimiento. ¿Te animas a dar una charla en nuestro meetup? Déjanos tus datos para ponernos en contacto y coordinemos 🙂</p>
+
+    <p>Actualmente por la situación de salud COVID-19, todas las reuniones de la comunidad están siendo planificadas para ver virtuales. Por ello, te recomendamos contar con una buena conexión a internet para soportar las herramientas de videoconferencia</p>
+
+    <form action="https://api.formik.com/submit/rubyperucfp/meetupspeakers" method="post">
+      <div class="inputGroup">
+        <label for="name">Nombre: </label>
+        <input type="text" name="name" id="name" placeholder="Jane Doe" required>
+      </div>
+
+      <div class="inputGroup">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="jane@doe.co" required>
+      </div>
+
+      <div class="inputGroup">
+        <label for="talk_name">Título de la charla: </label>
+        <input type="text" name="talk_name" id="talk_name" placeholder="Mi increíble charla" required>
+      </div>
+
+      <div class="inputGroup">
+        <label for="talk_date">Fecha probable: </label>
+        <input type="month" name="talk_date" id="talk_date" required>
+      </div>
+
+      <div class="inputGroup">
+        <label for="talk_description">Cuéntamos un poco más de la charla: </label>
+        <textarea name="talk_description" id="talk_description" placeholder="Les hablaré sobre.."></textarea>
+      </div>
+
+      <input class="cfpButton" type="submit" value="Enviar">
+    </form>
+  </div>
+</div>
