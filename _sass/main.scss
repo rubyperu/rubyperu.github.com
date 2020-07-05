@@ -178,3 +178,21 @@ strong {
     font-weight: 600;
   }
 }
+
+.thanksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.2em 0;
+
+  h3 {
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 1em;
+  }
+
+  p {
+    padding: 0.1em 0;
+    text-align: left;
+  }
+}
