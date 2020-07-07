@@ -25,7 +25,7 @@ header {
 }
 
 section {
-  width: 690px;
+  max-width: 690px;
   margin: 30px auto;
   p a {
     text-decoration: underline;
@@ -93,6 +93,15 @@ strong {
   font-weight: 500;
 }
 
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(0, 0, 0, 0.85);
+  color: #f0f0f0;
+  padding: 1em 3em;
+  flex-wrap: wrap;
+}
+
 .logo img {
   height: 100px;
   -webkit-box-align: center;
@@ -118,7 +127,7 @@ strong {
 }
 
 .cfpContent {
-  width: 690px;
+  max-width: 690px;
   h1 {
     font-size: 2em;
     margin-bottom: 20px;
@@ -202,6 +211,7 @@ strong {
   flex-direction: column;
   align-items: center;
 }
+
 .blogContent {
   max-width: 690px;
   text-align: left;
@@ -242,5 +252,27 @@ strong {
 
   pre {
     font-size: 0.75em;
+  }
+}
+
+.postList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  article {
+    padding: 10px 20px;
+    border: 1px solid #dadada;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: left;
+
+    h3 {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
   }
 }
