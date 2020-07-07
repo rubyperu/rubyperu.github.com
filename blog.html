@@ -1,0 +1,12 @@
+---
+layout: base
+---
+<p>Artículos que podrían interesarte</p>
+<section class="postList">
+  {% for post in site.posts %}
+    <article>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {{ post.excerpt }}
+    </article>
+  {% endfor %}
+</section>
