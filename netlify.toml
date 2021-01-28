@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/workshop"
+  to = "https://forms.formium.io/f/6004c711d0a32c0001f496ff"
+  status = 302
+  force = true
