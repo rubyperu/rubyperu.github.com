@@ -9,3 +9,9 @@
   to = "https://www.youtube.com/channel/UC8O1RTDK93NT-f2eTjY3p5A"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/bookclub"
+  to = "https://www.meetup.com/es-ES/rubyperu/events/288030547/"
+  status = 302
+  force = true
