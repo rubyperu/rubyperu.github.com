@@ -21,9 +21,17 @@
   to = "https://www.meetup.com/es-ES/rubyperu/events/286171943/"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "/2022-octubre"
+  to = "https://www.meetup.com/es-ES/rubyperu/events/286171963/"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "/calendar"
   to = "https://calendar.google.com/calendar/u/0/embed?src=a1i8be1t3l283ajn6ok5icvsc8@group.calendar.google.com&ctz=America/Lima"
   status = 302
   force = true
+  
+
