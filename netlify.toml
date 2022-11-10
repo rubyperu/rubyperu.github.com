@@ -27,6 +27,12 @@
   to = "https://www.meetup.com/es-ES/rubyperu/events/286171963/"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "/2022-noviembre"
+  to = "https://www.meetup.com/es-ES/rubyperu/events/286171983/"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "/calendar"
