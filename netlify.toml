@@ -33,6 +33,14 @@
   to = "https://www.meetup.com/es-ES/rubyperu/events/286171983/"
   status = 302
   force = true
+  
+
+[[redirects]]
+  from = "/2023-abril"
+  to = "https://www.meetup.com/es-ES/rubyperu/events/292882084/"
+  status = 302
+  force = true
+
 
 [[redirects]]
   from = "/calendar"
