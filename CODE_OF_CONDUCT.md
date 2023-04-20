@@ -16,6 +16,7 @@ Ejemplos de comportamientos que contribuyen a crear un ambiente positivo para nu
 * Dar y aceptar adecuadamente retroalimentación constructiva
 * Aceptar la responsabilidad y disculparse ante quienes se vean afectados por nuestros errores, aprendiendo de la experiencia
 * Centrarse en lo que sea mejor no sólo para nosotros como individuos, sino para la comunidad en general
+* Evitar enviar mensajes spam o promocionales a los miembros de la comunidad sin su consentimiento previo explícito.
 
 Ejemplos de comportamiento inaceptable:
 
@@ -25,6 +26,7 @@ Ejemplos de comportamiento inaceptable:
 * El acoso en público o privado
 * Publicar información privada de otras personas, tales como direcciones físicas o de correo
   electrónico, sin su permiso explícito
+* Cultivar una cultura de la cancelación, donde se busque la eliminación o el boicot de personas o grupos en lugar de fomentar el diálogo y el respeto mutuo
 * Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un
   entorno profesional
 
