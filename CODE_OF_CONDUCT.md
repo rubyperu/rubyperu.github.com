@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 
 # Código de Conducta convenido para Contribuyentes
 
