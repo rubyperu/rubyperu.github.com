@@ -47,5 +47,9 @@
   to = "https://calendar.google.com/calendar/u/0/embed?src=a1i8be1t3l283ajn6ok5icvsc8@group.calendar.google.com&ctz=America/Lima"
   status = 302
   force = true
-  
 
+[[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/rubyperu/shared_invite/zt-1u1ibauuu-_A30rXz8nsSSt_FIE7c3fA"
+  status = 302
+  force = true
