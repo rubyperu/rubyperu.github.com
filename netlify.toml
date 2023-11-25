@@ -47,6 +47,12 @@
   status = 302
   force = true
 
+[[redirects]]
+  from = "/meetup"
+  to = "https://www.meetup.com/es-ES/rubyperu/events/286171991/"
+  status = 302
+  force = true
+
 
 [[redirects]]
   from = "/calendar"
