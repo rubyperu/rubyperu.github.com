@@ -18,3 +18,11 @@ permalink:   date
 
 sass:
   sass_dir: _sass
+  load_paths:
+    - node_modules
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false

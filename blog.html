@@ -1,12 +1,16 @@
 ---
 layout: base
 ---
-<p>Artículos que podrían interesarte</p>
-<section class="postList">
-  {% for post in site.posts %}
-    <article>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
-    </article>
-  {% endfor %}
-</section>
+<div class="max-w-5xl mx-auto py-32 px-5">
+  <h3 class="text-3xl text-stone-900 font-extrabold">Artículos que podrían interesarte</h3>
+  <section class="mt-8 grid md:grid-cols-2">
+    {% for post in site.posts %}
+      <a href="{{ post.url }}" class="group hover:bg-rose-100 rounded-lg" aria-labelledby="post-{{ post.slug }}">
+        <article class="group-hover:text-stone-900 px-8 py-4">
+          <h3 id="post-{{ post.slug }}" class="font-medium text-2xl mb-2 text-rose-950">{{ post.title }}</h3>
+          {{ post.excerpt }}
+        </article>
+      </a>
+    {% endfor %}
+  </section>
+</div>
