@@ -2,41 +2,44 @@
 layout: base
 ---
 
-<div class="cfpContainer">
-  <div class="cfpContent">
-    <h1>Quiero dar una charla en Ruby Peru</h1>
+<div class="mx-auto py-8 md:py-32 text-stone-700 font-light w-full max-w-prose flex flex-col px-5 md:px-0 prose">
 
-    <p>Siempre estamos en la búsqueda de gente que quiera compartir conocimiento. ¿Te animas a dar una charla en nuestro meetup? Déjanos tus datos para ponernos en contacto y coordinemos 🙂</p>
+    <h1 class="text-rose-600">Quiero dar una charla en Ruby Peru</h1>
 
-    <p>Actualmente por la situación de salud COVID-19, todas las reuniones de la comunidad están siendo planificadas para ver virtuales. Por ello, te recomendamos contar con una buena conexión a internet para soportar las herramientas de videoconferencia</p>
+    <div class="flex flex-col gap-12">
+      <div>
+        <p>Siempre estamos en la búsqueda de gente que quiera compartir conocimiento. ¿Te animas a dar una charla en nuestro meetup? Déjanos tus datos para ponernos en contacto y coordinemos 🙂</p>
 
-    <form action="https://api.formik.com/submit/rubyperucfp/meetupspeakers" method="post">
-      <div class="inputGroup">
-        <label for="name">Nombre: </label>
-        <input type="text" name="name" id="name" placeholder="Jane Doe" required>
+        <p>Todas las reuniones de la comunidad están siendo planificadas para ser virtuales. Por ello, te recomendamos contar con una buena conexión a internet para soportar las herramientas de videoconferencia</p>
       </div>
 
-      <div class="inputGroup">
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" placeholder="jane@doe.co" required>
-      </div>
+      <form name="meetup_speakers" method="post" netlify class="flex flex-col gap-6">
+        <div class="flex flex-col gap-2">
+          <label for="name" class="font-sm text-stone-900 font-semibold">¿Cúal es tu nombre?</label>
+          <input type="text" name="name" id="name" placeholder="Jane Doe" required class="px-4 py-2 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 focus:ring-0">
+        </div>
 
-      <div class="inputGroup">
-        <label for="talk_name">Título de la charla: </label>
-        <input type="text" name="talk_name" id="talk_name" placeholder="Mi increíble charla" required>
-      </div>
+        <div class="flex flex-col gap-2">
+          <label for="email" class="font-sm text-stone-900 font-semibold">¿Dónde podemos contactarte?</label>
+          <input type="email" name="email" id="email" placeholder="jane@doe.co" required class="px-4 py-2 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 focus:ring-0">
+        </div>
 
-      <div class="inputGroup">
-        <label for="talk_date">Fecha probable: </label>
-        <input type="month" name="talk_date" id="talk_date" required>
-      </div>
+        <div class="flex flex-col gap-2">
+          <label for="talk_name" class="font-sm text-stone-900 font-semibold">¿Cómo se va a llamar tu charla?</label>
+          <input type="text" name="talk_name" id="talk_name" placeholder="Mi increíble charla" required class="px-4 py-2 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 focus:ring-0">
+        </div>
 
-      <div class="inputGroup">
-        <label for="talk_description">Cuéntamos un poco más de la charla: </label>
-        <textarea name="talk_description" id="talk_description" placeholder="Les hablaré sobre.."></textarea>
-      </div>
+        <div class="flex flex-col gap-2">
+          <label for="talk_date" class="font-sm text-stone-900 font-semibold">¿Cuándo podrías darla?</label>
+          <input type="text" name="talk_date" id="talk_date" placeholder="Noviembre y Diciembre" required class="px-4 py-2 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 focus:ring-0">
+        </div>
 
-      <input class="cfpButton" type="submit" value="Enviar">
-    </form>
-  </div>
+        <div class="flex flex-col gap-2">
+          <label for="talk_description" class="font-sm text-stone-900 font-semibold">¿De qué va a tratar tu charla?</label>
+          <textarea name="talk_description" id="talk_description" placeholder="Les hablaré sobre.." class="px-4 py-2 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 focus:ring-0" rows="5"></textarea>
+        </div>
+
+        <button class="bg-red-600 text-white font-semibold py-2 px-20 ml-auto rounded-full hover:bg-red-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 focus:ring-0">Enviar</button>
+      </form>
+    </div>
 </div>

@@ -8,7 +8,42 @@
     <meta property="og:type" content="ruby.pe">
     <meta property="og:url" content="http://ruby.pe/">
     <meta property="og:image" content="/img/rubyperu_logo.png">
-    <link href="/assets/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/assets/dist-style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+  </head>
+  <body class="bg-gradient-to-r from-stone-100 via-rose-50 to-rose-200 min-h-screen">
+
+    <nav class="bg-rose-700 text-red-50 px-5">
+      <div class="max-w-5xl mx-auto max-h-24 flex items-center justify-between gap-2 py-8">
+        <a href="/"><img src="{{ '/img/rubyperu_logo_white.svg' | relative_url }}" class="h-10" alt="Ruby Peru" /></a>
+        <ul class="hidden md:flex gap-8 items-center ">
+          <li><a href="/blog" class="font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Blog</a></li>
+          <li><a href="/cfp" class="font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Dar una charla</a></li>
+          <li><a href="/code_of_conduct" class="font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Código de Conducta</a></li>
+        </ul>
+        <a href="htpps://ruby.pe/slack" target="_blank" class="bg-red-50 text-rose-700 border border-red-50 px-6 py-2 rounded-full uppercase font-semibold text-sm flex-shrink-0 hover:bg-red-700 hover:text-red-50 focus-visible:outline-2 focus-visible:outline-red-700 focus-visible:outline-offset-2">Unirse al Slack</a>
+      </div>
+    </nav>
+
+    {{ content }}
+
+    <foote>
+      <div class="bg-rose-700 py-10 text-red-50">
+        <div class="max-w-5xl mx-auto">
+          <ul class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3 items-center px-5">
+            <li><a href="/slack" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Unirse al Slack</a></li>
+            <li><a href="/calendar" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Calendario de Actividades</a></li>
+            <li><a href="/meetup" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Registo próximo meetup</a></li>
+            <li><a href="/bookclub" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Registro próximo Club de Lectura</a></li>
+            <li><a href="/cfp" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Dar una charla</a></li>
+            <li><a href="/code_of_conduct" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Código de Conducta</a></li>
+            <li><a href="/blog" class="text-sm font-medium px-2 py-1 focus-visible:outline-white focus-visible:outline-1 focus-visible:outline-offset-4 hover:bg-rose-600 hover:text-white rounded">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center py-4 text-stone-700 px-5">Hecho con 🩷 por la comunidad de Ruby Perú</p>
+    </footer>
+
     <script src="/assets/js/base.js" type="text/javascript"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -22,18 +57,5 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-  </head>
-  <body>
-    <header>
-      <a href="/" class="logo"><img src="/img/rubyperu_logo.png" /></a>
-    </header>
-    <div class="container">
-      {{ content }}
-    </div>
-    <footer>
-      <a href="/cfp">Quiero dar una charla</a>
-      <a href="/blog">Blog</a>
-      <a href="http://bit.ly/rubyperu-slack" target="_blank">Unirse a Slack</a>
-    </footer>
   </body>
 </html>
